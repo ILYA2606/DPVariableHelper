@@ -4,6 +4,7 @@ DPVariableHelper
 Get object from name:
 
 id outObject = [DPVariableHelper objectFromVariableName: @"_object" andTarget: self];
+
 //where: 
 'object' is property current class,
 'outObject' is output object
