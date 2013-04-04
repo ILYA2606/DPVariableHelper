@@ -1,7 +1,11 @@
 DPVariableHelper
 ================
 
-Get object from name:
+To compile source:
+Set compile flag to DPVariableHelper '-fno-objc-arc', because one function in the Runtime not wiorking with ARC
+
+
+How get object from name:
 
 id outObject = [DPVariableHelper objectFromVariableName: @"_object" andTarget: self];
 
@@ -11,7 +15,7 @@ id outObject = [DPVariableHelper objectFromVariableName: @"_object" andTarget: s
 
 
 
-Set object to object name:
+How set object to object name:
 
 [DPVariableHelper setObject: newObject toVariableName: @"_object" andTarget: self];
 
