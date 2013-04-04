@@ -2,7 +2,7 @@ DPVariableHelper
 ================
 
 To compile source:
-Set compile flag to DPVariableHelper '-fno-objc-arc', because one function in the Runtime not wiorking with ARC
+Set compile flag to DPVariableHelper '-fno-objc-arc', because one function in the Runtime not working with ARC
 
 
 How get object from name:
